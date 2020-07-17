@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "33456409301",
+    "firebase_url": "https://flutter-admob-ads.firebaseio.com",
+    "project_id": "flutter-admob-ads",
+    "storage_bucket": "flutter-admob-ads.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33456409301:android:bcf4a16374b5ebef40305c",
+        "android_client_info": {
+          "package_name": "com.saigopitechtelugu.flutterads"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33456409301-568ru4kf47m48peiaisalabefr5k0qg6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saigopitechtelugu.flutterads",
+            "certificate_hash": "44ec41b77a3e5d65dd8cd6a6ea926aded12abc49"
+          }
+        },
+        {
+          "client_id": "33456409301-t6gji4l1sid42jjiseqq185lciieu7on.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmcTvJpbIrEl9yFTS2LzaOwdyGkk38M6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33456409301-t6gji4l1sid42jjiseqq185lciieu7on.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
