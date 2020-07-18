@@ -64,26 +64,66 @@ class _HomeScreenState extends State<HomeScreen> {
         appBar: AppBar(title: Text("Admb Ads")),
         body: Column(
           children: [
-            RaisedButton(
-              onPressed: () {
-                createInterstialAd()
-                  ..load()
-                  ..show();
-              },
-              child: Text("Show interstial Ad"),
+            Container(
+              width: double.infinity,
+              child: RaisedButton(
+                shape: StadiumBorder(),
+                color: Colors.red,
+                textColor: Colors.white,
+                padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                splashColor: Colors.yellow,
+                onPressed: () {
+                  createBannerAd()
+                    ..load()
+                    ..show();
+                },
+                child: Text("Banner Ad"),
+              ),
             ),
-            RaisedButton(
-              onPressed: () {
-                RewardedVideoAd.instance..show();
-              },
-              child: Text("Show Reward Ad"),
+            Container(
+              width: double.infinity,
+              child: RaisedButton(
+                shape: StadiumBorder(),
+                color: Colors.red,
+                textColor: Colors.white,
+                padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                splashColor: Colors.yellow,
+                onPressed: () {
+                  createInterstialAd()
+                    ..load()
+                    ..show();
+                },
+                child: Text("Interstitial Ad"),
+              ),
             ),
-            RaisedButton(
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (con) => NamesListScreen()));
-              },
-              child: Text("Show native Ads"),
+            Container(
+              width: double.infinity,
+              child: RaisedButton(
+                shape: StadiumBorder(),
+                color: Colors.red,
+                textColor: Colors.white,
+                padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                splashColor: Colors.yellow,
+                onPressed: () {
+                  RewardedVideoAd.instance..show();
+                },
+                child: Text("Reward Ad"),
+              ),
+            ),
+            Container(
+              width: double.infinity,
+              child: RaisedButton(
+                shape: StadiumBorder(),
+                color: Colors.red,
+                textColor: Colors.white,
+                padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                splashColor: Colors.yellow,
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (_) => NamesListScreen()));
+                },
+                child: Text("Navitive Ads"),
+              ),
             )
           ],
         ));
