@@ -1,16 +1,23 @@
-# flutter_ads
+Hi friends in this series you will learn about how to integrate Google AdMob Ads in Flutter App Both Android and iOS.
 
-A new Flutter project.
+Below you can watch demo
 
-## Getting Started
+<img src="https://media.giphy.com/media/QBqB4G6j2Xk4DmK1GT/giphy.gif" width="220" height="400" />
 
-This project is a starting point for a Flutter application.
+Source code: https://github.com/narimetisaigopi/Flutter-AdMob-Ads
 
-A few resources to get you started if this is your first Flutter project:
+firebase admob packge: https://pub.dev/packages/firebase_admob
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+flutter native admob: https://pub.dev/packages/flutter_native_admob
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Google Admob Account: https://admob.google.com/home/
+
+► Message me on WhatsApp :  https://www.wa.me/917981686394
+
+► Like me on Facebook :  https://www.facebook.com/saigopi.me
+
+► Follow me on Twitter : https://twitter.com/saigopi_me
+
+► Follow me on Instagram : https://www.instagram.com/saigopi.me
+
+► Connect me on LinkedIn : https://www.linkedin.com/in/saigopi-me
